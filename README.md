@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Netflix Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This project is a clone of the popular streaming platform, Netflix. It's built using React for the frontend, Firebase for authentication and data storage, and Tailwind CSS for styling. While it doesn't offer the full functionality of Netflix (such as video streaming), it mimics the user interface and experience to provide a similar look and feel.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **User Authentication:** Sign up, sign in, and sign out functionality via Firebase authentication.
+- **Browse Page:** Upon successful login, users can see a range of movie/series categories similar to the original Netflix.
+- **Movie/Series Information:** Hovering over a movie or series thumbnail displays a brief synopsis of the selected title.
+- **Search:** Users can search for specific movies or series.
+- **Likes:** Users can add movies or series to their 'liked' list and view them later.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React:** Utilizing functional components and hooks, React serves as the backbone of the frontend.
+- **Firebase:** User data and 'liked' movies/series data are stored in Firebase Firestore, providing a real-time database solution. The application is also deployed through Firebase.
+- **Tailwind CSS:** This utility-first CSS framework offers an efficient, responsive design system, enabling us to create a user interface that closely resembles Netflix.
+- **React-Router:** Handles page routing within the application.
 
-### `npm test`
+## How to Use
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+If you'd like to run this application locally, follow these steps:
 
-### `npm run build`
+1. Fork this repository to create a copy on your GitHub account.
+2. Clone your forked repository to your local machine using `git clone <repo link>`.
+3. In the root directory of the project, install the necessary dependencies with `npm install`.
+4. Run the development server with `npm start`. The application should open in your default web browser.
+5. To fully explore the application, sign up for an account.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Contributions are welcome! To contribute:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Fork this repository.
+2. Create a new branch on your forked repository.
+3. Make your changes.
+4. Commit your changes and push to the branch.
+5. Open a pull request from the new branch to the original repository.
 
-### `npm run eject`
+Make sure to pull the latest version from the main branch before making a pull request!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Disclaimer
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project is created for educational purposes and personal portfolio showcase. It's not affiliated with the official Netflix platform.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is open-sourced and licensed under the MIT License. Feel free to fork and use it as you wish, following the terms of the license.
